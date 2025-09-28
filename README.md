@@ -13,7 +13,7 @@ The GA optimises CNN hyperparameters by representing each individual as a chromo
 - `dropout_rate`: dropout applied in the model
 - `weight_decay`: L2 regularisation
 - `momentum`: SGD momentum
-- `conv_channels`: base channel counts (kept constant)
+- `conv_channels`: base channel counts _(kept constant)_
 
 Default ranges for initialising chromosomes:
 
@@ -77,4 +77,4 @@ src/
 
 ## License
 
-This project is licensed under the MIT LICENSE.
+This project is licensed under the [MIT LICENSE](LICENSE).
